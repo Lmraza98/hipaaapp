@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  output: 'standalone',
+  productionBrowserSourceMaps: true,
+  swcMinify: true,
+  poweredByHeader: false
 };
 
 module.exports = nextConfig; 
