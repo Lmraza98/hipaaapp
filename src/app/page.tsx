@@ -16,11 +16,6 @@ export default function Home() {
         </div>
         <div className="relative flex justify-center">
           <div className="relative">
-            <img 
-              src="/doctor-illustration.svg" 
-              alt="Healthcare Professional" 
-              className="w-80" 
-            />
             <div className="absolute top-1/4 -left-12">
               <div className="bg-blue-400 p-3 rounded-lg text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -49,7 +44,7 @@ export default function Home() {
         {/* HIPAA Compliance Section */}
         <div>
           <h2 className="text-2xl font-bold text-slate-800">
-            HIPAA Compliance Isn't Optional &ndash; It's Mandatory
+            HIPAA Compliance Isn&apos;t Optional &ndash; It&apos;s Mandatory
           </h2>
           <ul className="mt-6 space-y-4">
             <li className="flex items-start">
@@ -170,7 +165,7 @@ export default function Home() {
           See What Others Say
         </h2>
         <div className="text-slate-700 italic">
-          "The team helped us launch a secure telehealth platform in under 6 months &ndash; fully HIPAA compliant and bulletproof."
+          &quot;The team helped us launch a secure telehealth platform in under 6 months &ndash; fully HIPAA compliant and bulletproof&quot;
         </div>
         <div className="mt-8 flex justify-center">
           <button className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-md transition-colors">
@@ -182,7 +177,7 @@ export default function Home() {
       {/* Final CTA */}
       <div className="mt-16 text-center pb-12">
         <h2 className="text-2xl font-bold text-slate-800">
-          Ready to Launch Your HIPAA App? Let's Talk.
+          Ready to Launch Your HIPAA App? Let&apos;s Talk.
         </h2>
       </div>
     </div>
